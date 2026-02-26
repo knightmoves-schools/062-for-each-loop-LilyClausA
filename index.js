@@ -3,10 +3,11 @@ function markAsDone(todos) {
 let newTodos = [];
   
   todos.forEach(function(todo) {
-    newTodos.push("done -" + todos);
+    newTodos.push("done - " + todo);
   });
   return newTodos;
 }
+
 
 
 //should create a function named markAsDone that 
@@ -14,3 +15,4 @@ let newTodos = [];
 
 //should loop through the todos, using forEach,
 //and prepend the string 'done - ' to each todo description
+
